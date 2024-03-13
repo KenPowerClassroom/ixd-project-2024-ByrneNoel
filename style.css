@@ -6,8 +6,9 @@ p {
 	
 }
 
-h1 {
+#heading{
 	font-family: serif;
+	padding-right: 1270px;
 	float: right;
 }
 
@@ -20,9 +21,59 @@ h2 {
 	color: black;
 	font-size: 30px;
 	text-decoration: none;
+
 }
 
 #nav {
 	min-width: 200px;
 }
+
+#intro {
+	padding-left: 270px;
+	padding-right: 270px;
+}
+
+.table_component {
+    overflow: auto;
+    width: 100%;
+}
+
+.table_component table {
+    border: 1px solid #000000;
+    height: 300%;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.table_component caption {
+    caption-side: top;
+    text-align: center;
+    font-size: 30px;
+}
+
+.table_component th {
+    border: 1px solid black;
+    background-color: #eceff1;
+    color: black;
+    padding: 10px;
+}
+
+.green {
+	background-color: green;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+
+.table_component td {
+    border: 1px solid black;
+    color: black;
+    padding: 10px;
+    
+}
+
 
