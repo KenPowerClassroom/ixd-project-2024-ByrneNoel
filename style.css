@@ -6,11 +6,18 @@ p {
 	
 }
 
-#heading{
-	font-family: serif;
-	padding-right: 1270px;
-	float: right;
+h1 {
+	font-size: 30px;
 }
+
+#heading{
+	position: relative;
+	top: -250px;
+	font-family: serif;
+	left: 270px;
+
+}
+
 
 h2 {
 	font-size: 30px;
@@ -29,8 +36,12 @@ h2 {
 }
 
 #intro {
+	position: relative;
 	padding-left: 270px;
 	padding-right: 270px;
+	padding-top: 10px;
+	top: -200px;
+	
 }
 
 .table_component {
